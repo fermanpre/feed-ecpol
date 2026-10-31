@@ -1,0 +1,1 @@
+# Sin dependencias externas: generar_feed.py usa solo la biblioteca estándar de Python.
