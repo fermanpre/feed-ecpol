@@ -19,7 +19,8 @@ de forma gratuita, para poder suscribirse desde Feedly.
 ## Comportamiento
 
 - Se actualiza cada día (05:17 UTC) y se puede lanzar a mano.
-- Incluye las 50 publicaciones más recientes del perfil (título, enlace, autores, fecha y extracto).
+- Incluye las 50 publicaciones más recientes del perfil: título, enlace, autores, fecha, resumen completo y enlace al PDF.
+- `cache.json` guarda lo ya descargado de cada publicación para no repetir peticiones; las de los últimos 30 días se revisan cada día.
 - Si la página cambia de estructura o Esade bloquea la petición, el workflow falla y GitHub avisa por correo.
 
 ## Probarlo en local
